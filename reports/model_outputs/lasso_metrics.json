@@ -1,0 +1,140 @@
+{
+  "metrics": {
+    "train": {
+      "mse": 4.353388111231234,
+      "rmse": 2.0864774408632445,
+      "mae": 0.5004046609837488,
+      "r2": 0.7169625767755445,
+      "adj_r2": 0.7155088939855387
+    },
+    "test": {
+      "mse": 3.2549113847740108,
+      "rmse": 1.8041372965420372,
+      "mae": 0.4496249057199326,
+      "r2": 0.7697280016796155
+    },
+    "n_train": 5285,
+    "n_test": 1322,
+    "p": 27
+  },
+  "diagnostics": {
+    "durbin_watson": 1.9522578250297509,
+    "shapiro_wilk": {
+      "statistic": 0.16623403168753248,
+      "p_value": 4.73752183688073e-93
+    },
+    "breusch_pagan": {
+      "error": "'Pipeline' object has no attribute 'model'"
+    },
+    "vif": [
+      {
+        "predictor": "Distance_from_Home_Near",
+        "VIF": 2.6153210576771646
+      },
+      {
+        "predictor": "Distance_from_Home_Moderate",
+        "VIF": 2.6145872275349866
+      },
+      {
+        "predictor": "Family_Income_Medium",
+        "VIF": 1.8668028109450807
+      },
+      {
+        "predictor": "Family_Income_Low",
+        "VIF": 1.8630611850777952
+      },
+      {
+        "predictor": "Motivation_Level_Medium",
+        "VIF": 1.7733111044768401
+      },
+      {
+        "predictor": "Motivation_Level_Low",
+        "VIF": 1.7705320774661872
+      },
+      {
+        "predictor": "Peer_Influence_Neutral",
+        "VIF": 1.7559022985565835
+      },
+      {
+        "predictor": "Peer_Influence_Positive",
+        "VIF": 1.7531933926033407
+      },
+      {
+        "predictor": "Parental_Involvement_Low",
+        "VIF": 1.3651392552102308
+      },
+      {
+        "predictor": "Parental_Involvement_Medium",
+        "VIF": 1.3623315863504815
+      },
+      {
+        "predictor": "Access_to_Resources_Medium",
+        "VIF": 1.3442430592510168
+      },
+      {
+        "predictor": "Access_to_Resources_Low",
+        "VIF": 1.3439387026650451
+      },
+      {
+        "predictor": "Parental_Education_Level_High School",
+        "VIF": 1.3198027802188728
+      },
+      {
+        "predictor": "Parental_Education_Level_Postgraduate",
+        "VIF": 1.3185813506963227
+      },
+      {
+        "predictor": "Teacher_Quality_Low",
+        "VIF": 1.1952539164663554
+      },
+      {
+        "predictor": "Teacher_Quality_Medium",
+        "VIF": 1.1931368265367959
+      },
+      {
+        "predictor": "Physical_Activity",
+        "VIF": 1.0099709308040445
+      },
+      {
+        "predictor": "Previous_Scores",
+        "VIF": 1.0088679356246852
+      },
+      {
+        "predictor": "Attendance",
+        "VIF": 1.006265709352176
+      },
+      {
+        "predictor": "Sleep_Hours",
+        "VIF": 1.004483062119562
+      },
+      {
+        "predictor": "Learning_Disabilities_Yes",
+        "VIF": 1.0044470593705628
+      },
+      {
+        "predictor": "Internet_Access_Yes",
+        "VIF": 1.0042675370261764
+      },
+      {
+        "predictor": "School_Type_Public",
+        "VIF": 1.0038284454588695
+      },
+      {
+        "predictor": "Hours_Studied",
+        "VIF": 1.0037032598818598
+      },
+      {
+        "predictor": "Extracurricular_Activities_Yes",
+        "VIF": 1.0036286116158553
+      },
+      {
+        "predictor": "Gender_Male",
+        "VIF": 1.0026352253091508
+      },
+      {
+        "predictor": "Tutoring_Sessions",
+        "VIF": 1.0020099257492496
+      }
+    ]
+  }
+}
